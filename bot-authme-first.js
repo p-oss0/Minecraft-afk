@@ -217,7 +217,7 @@ function createBot() {
   });
 
   bot.on('kicked', (reason) => {
-    console.log('⚠️ Bot was kicked:', reason);
+    console.dir(reason, { depth: null });
     if (config.features.autoReconnect.enabled) {
       console.log(`🔄 Reconnecting in ${config.features.autoReconnect.delay / 1000} seconds...`);
       setTimeout(createBot, config.features.autoReconnect.delay);
