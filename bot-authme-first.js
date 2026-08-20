@@ -6,7 +6,7 @@ const config = {
   server: {
     host: 'onebraincell.play.hosting', // Change to your server IP
     port: 25565,
-    version: '1.21.11' // Change to your server version
+    version: '1.21.4' // Change to your server version
   },
   bot: {
     username: 'AFKBot', // Change to your desired bot name
