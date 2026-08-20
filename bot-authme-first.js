@@ -4,15 +4,15 @@ const { pathfinder, Movements, goals } = require('mineflayer-pathfinder');
 // Configuration - Edit these values for your server
 const config = {
   server: {
-    host: 'localhost', // Change to your server IP
+    host: 'onebraincell.play.hosting', // Change to your server IP
     port: 25565,
-    version: '1.20.4' // Change to your server version
+    version: '1.21.11' // Change to your server version
   },
   bot: {
     username: 'AFKBot', // Change to your desired bot name
     auth: 'offline', // 'offline', 'microsoft', or 'mojang'
     password: '', // Minecraft account password (if using premium auth)
-    authmePassword: 'change_this_password' // AuthMe password for /register and /login
+    authmePassword: 'goybeam' // AuthMe password for /register and /login
   },
   serverCommands: {
     enabled: true,
