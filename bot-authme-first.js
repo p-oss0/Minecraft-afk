@@ -9,7 +9,7 @@ const config = {
     version: '1.21.4' // Change to your server version
   },
   bot: {
-    username: 'ADOLF_HITLER', // Change to your desired bot name
+    username: 'ADOLF_hitler', // Change to your desired bot name
     auth: 'offline', // 'offline', 'microsoft', or 'mojang'
     password: '', // Minecraft account password (if using premium auth)
     authmePassword: 'goybeam' // AuthMe password for /register and /login
